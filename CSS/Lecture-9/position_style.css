@@ -1,0 +1,35 @@
+.main{
+    border: 2px dashed black;
+    display: inline-block;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.pos1{
+    background-color: red;
+}
+.pos2{
+    position: relative;
+    background-color: blanchedalmond;
+    top: 20px;
+    left: 30px;
+}
+.pos3{
+    background-color: red;
+}
+.pos4{
+    background-color: red;
+}
+.postwo{
+    position: absolute;
+    background-color: blanchedalmond;
+    top: 312px;
+    left: 30px;
+}
