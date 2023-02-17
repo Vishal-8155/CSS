@@ -1,0 +1,55 @@
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    transform: translate(745%, 300%);
+}
+
+.box1
+{
+    background-color: red;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.box2
+{
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+.box3
+{
+    background-color: blue;
+    position: absolute;
+    top:80px;
+    left: 50px;
+}
+
+.box4
+{
+    background-color: green;
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+
+.box5
+{
+    background-color: brown;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+.box6
+{
+    background-color: aqua;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
