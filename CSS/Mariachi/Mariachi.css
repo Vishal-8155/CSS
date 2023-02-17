@@ -162,13 +162,14 @@ a:hover
     text-align: center;
     border: none;
     transition: 0.5s;
+    animation: pulse 1s linear infinite;
 }
 
 .r333 button:hover
 {
     transform: scale(1);
     cursor: pointer; 
-    animation: pulse 1s linear infinite;
+    
 }
 
 @keyframes pulse
@@ -260,13 +261,14 @@ a:hover
     text-align: center;
     border: none;
     transition: 0.5s;
+    animation: pulseee 1s linear infinite;
 }
 
 .r5c2r3 button:hover
 {
     transform: scale(1);
     cursor: pointer; 
-    animation: pulseee 1s linear infinite;
+    
 }
 
 @keyframes pulseee
@@ -342,6 +344,7 @@ a:hover
     font-size: 18px;
     border: none;
     transition: all 0.3s;
+    animation: pulsee 1s linear infinite;
     /* margin-left: 135px; */
 }
 
@@ -349,7 +352,7 @@ a:hover
 { 
     transform: scale(1);
     cursor: pointer; 
-    animation: pulsee 1s linear infinite;
+    
 }
 
 @keyframes pulsee
