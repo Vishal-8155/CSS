@@ -162,7 +162,7 @@ a:hover
     text-align: center;
     border: none;
     transition: 0.5s;
-    animation: pulse 1s linear infinite;
+    animation: pulse 2s linear infinite;
 }
 
 .r333 button:hover
@@ -261,7 +261,7 @@ a:hover
     text-align: center;
     border: none;
     transition: 0.5s;
-    animation: pulseee 1s linear infinite;
+    animation: pulseee 2s linear infinite;
 }
 
 .r5c2r3 button:hover
@@ -344,7 +344,7 @@ a:hover
     font-size: 18px;
     border: none;
     transition: all 0.3s;
-    animation: pulsee 1s linear infinite;
+    animation: pulsee 2s linear infinite;
     /* margin-left: 135px; */
 }
 
@@ -378,7 +378,7 @@ a:hover
     grid-template-rows: 500px 1fr 1fr;
     background-image: url(mexican-cover-1631883311.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.616);
     background-blend-mode: multiply;
     position: relative;
