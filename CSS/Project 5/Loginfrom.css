@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+.container {
+    height: 961px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(coding.jpg);
+    background-size: cover;
+    display: flex;
+    position: absolute;
+}
+
+fieldset {
+    text-align: center;
+    align-items: center;
+    border: none;
+    margin: auto;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    background-image: url(hacker.jpg);
+    background-color: rgba(0, 0, 0, 0.284);
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-shadow: 0 0 35px white;
+}
+
+img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border: 5px solid white;
+    border-radius: 100px;
+}
+
+legend {
+    text-align: center;
+}
+
+.r1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.email {
+    width: 280px;
+    padding: 10px 0 10px 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.email:focus {
+    background-color: yellow;
+    font-weight: bold;
+    box-shadow: 0 0 50px whitesmoke;
+}
+
+.email:hover {
+    background-color: rgb(0, 255, 42);
+    font-weight: bold;
+    box-shadow: 0 0 50px whitesmoke;
+}
+
+.icon-email {
+    position: absolute;
+    font-size: 20px;
+    left: 25px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.r2 {
+    position: relative;
+}
+
+.password {
+    width: 280px;
+    padding: 10px 0 10px 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+.password:focus {
+    background-color: yellow;
+    font-weight: bold;
+    box-shadow: 0 0 50px whitesmoke;
+}
+
+.password:hover {
+    background-color: rgb(0, 255, 42);
+    font-weight: bold;
+    box-shadow: 0 0 50px whitesmoke;
+}
+
+.icon-lock {
+    position: absolute;
+    font-size: 20px;
+    left: 25px;
+    top: 8px;
+    transition: .2s;
+}
+
+.icon-eye {
+    position: absolute;
+    font-size: 20px;
+    right: 25px;
+    top: 8px;
+    transition: .2s;
+}
+
+.icon-eye:hover {
+    cursor: pointer;
+}
+
+.icon-lock:hover {
+    cursor: pointer;
+}
+
+
+.r3 {
+    width: fit-content;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 9px;
+    text-shadow: 0 0 4px white;
+}
+
+.r3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.r4 {
+    width: 280px;
+    height: 40px;
+    margin-left: 25px;    
+    margin-top: 30px;
+}
+
+.r4 button
+{
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 255, 42);
+}
+
+.r4 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.r4 button:hover
+{
+    cursor: pointer;
+}
+
+.r5
+{
+  color: white;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.r5 a
+{
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
