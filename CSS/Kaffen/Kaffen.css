@@ -93,7 +93,7 @@
 }
 
 .dropmenus {
-    padding: 0 10px 0 10px;
+    padding:25px 10px;
     text-decoration: none;
     color: white;
     transition: .9s;
@@ -106,6 +106,36 @@
 .div-dropmenus {
     display: grid;
     align-items: center;
+}
+
+.drop-menus
+{
+    
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: black;
+    border-radius: 10px;
+    top: 80px;
+}
+.drop-menus a
+{
+    padding:16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    transition: .9s;
+}
+
+.drop-menus a:hover{
+    color: #b99272;
+}
+
+.drop-btn:hover .drop-menus
+{
+    display: block;
 }
 
 .r2c3 {
@@ -145,7 +175,23 @@
 .r3c2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 100px 360px 150px 140px;
+    grid-template-rows: 170px 30px 360px 150px 140px;
+}
+
+.r3c2r1
+{
+    display: grid;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.r3c2r1 .line
+{
+    background-color: #b99272;
+    height: 2px;
+    width: 35px;
+
 }
 
 .r3c2r2 {
