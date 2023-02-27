@@ -21,7 +21,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 95px 775px;
+    grid-template-rows: 100px 95px 775px 480px 50px;
 }
 
 /* --------------------------------------------------------------------------------------------------- */
@@ -188,7 +188,7 @@ body{
 }
 
 .drop-menu-text{
-    transition: 1s;
+    transition: .5s;
 }
 
 .drop-menu:hover .drop-menu-text{
@@ -278,3 +278,75 @@ body{
 .r3c3-img{
     width: 953px;
 }
+
+/* --------------------------------------------------------------------------------------------------- */
+
+.r4{
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 300px) 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+}
+
+.r4r{
+    display: grid;
+    align-items: center;
+}
+
+.r4r-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 50px 1fr;
+    height: 430px;
+    background-color: #2C4E86;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+}
+
+.r4rr1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.r4rr2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.r4rr3{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 19px 19px 19px;
+    letter-spacing: .2px;
+    line-height: 27px;
+    color: white;
+}
+
+/* scroll */
+
+    .swiper {
+      width: 700px;
+      height: 700px;
+      position: absolute;
+      
+     
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+
+/* scroll over */
