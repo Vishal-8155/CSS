@@ -54,7 +54,7 @@ body{
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 100px 850px 1200px 1040px;
+    grid-template-rows: 50px 100px 850px 1200px 1040px 900px;
     background-color: black;
 }
 
@@ -232,7 +232,7 @@ body{
 
 .r3 {
     display: grid;
-    grid-template-columns: 388px 600px 1fr;
+    grid-template-columns: 1fr 600px 1fr;
     grid-template-rows: 1fr 100px 250px 250px 1fr;
     background-image: url(started_img_n6.jpg);
     background-size: cover;
@@ -245,6 +245,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 198px 30px 332px 150px 140px;
+    margin-left: -26 0px;
 }
 
 .r3c2r1
@@ -371,12 +372,16 @@ body{
     grid-template-rows: 800px 248px;
     background-color: var(--dark);
     grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .r4r1{
     display: grid;
-    grid-template-columns: 380px 550px 50px 600px 1fr;
+    grid-template-columns: 1fr 550px 50px 600px 1fr;
     grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .Organic-coffee-img{
@@ -444,6 +449,8 @@ body{
     grid-template-columns: 1fr repeat(3, 372px) 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .r4r2c2{
@@ -629,4 +636,47 @@ body{
     color: var(--text-brown);
     font-family: var(--merinda);
     font-size: 22px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+.r6{
+    display: grid;
+    grid-template-columns: 1fr 600px 600px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.parallax_i-1{
+    height: 140px;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.parallax_i-2{
+    height: 180px;
+    padding-left: 40px;
+    padding-top: 200px;
+}
+
+.parallax_i-3{
+    height: 100px;
+    display: block;
+    padding-left: 20px;
+    padding-top: 350px;
+}
+
+.r6c2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.r6c2-box{
+    width: 550px;
+    height: 680px;
+}
+
+.r6c2-img{
+    width: 550px;
+    height: 680px;
 }
