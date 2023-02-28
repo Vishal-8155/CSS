@@ -54,7 +54,7 @@ body{
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 780px;
+    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 740px;
     background-color: black;
 }
 
@@ -790,16 +790,44 @@ body{
 .r7{
     background-color: #0e1317;
     display: grid;
-    grid-template-columns: 1fr repeat(3, 400px) 1fr;
+    grid-template-columns: 1fr repeat(3, 380px) 1fr;
     grid-template-rows: 1fr; 
 }
 
 .r7c-div{
-    height: 300px;
-    width: 500px;
+    width: 350px;
+    height: 450px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
+.r7c-div:hover .r7c-img{
+    scale: 1.1;
+    opacity: .3;
+}
+
+.r7c-div:hover 
+
 .r7c-img{
-    height: 300px;
-    width: 500px;
+    width: 350px;
+    height: 450px;
+    transition: .8s;
+}
+
+.r7c2{
+    display: grid;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+.r7c3{
+    display: grid;
+    justify-content: center;
+    padding-top: 110px;
+}
+
+.r7c4{
+    display: grid;
+    justify-content: center;
+    padding-top: 170px;
 }
