@@ -200,6 +200,7 @@ body{
     color: white;
     font-weight: bold;
     cursor: pointer;
+    animation-delay: 0.5s;
 }
 
 .book-table-button::before{
@@ -799,6 +800,7 @@ body{
     height: 450px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
 }
 
 .r7c-div:hover .r7c-img{
@@ -806,7 +808,30 @@ body{
     opacity: .3;
 }
 
-.r7c-div:hover 
+.r7c-img-contect{
+    position: absolute;
+    border: 1px solid #b99272;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-family: var(--oswald);
+    display: none;
+    transition: 1.8s;
+}
+
+.r7c-div:hover .r7c-img-contect{
+    display: block;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 
 .r7c-img{
     width: 350px;
