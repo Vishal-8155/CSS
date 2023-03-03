@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.container{
+    background-image: url(images/wooden-table-on-black-wall-260nw-1418939405.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.r1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-size: 240px;
+    text-shadow: 5px 5px 10px aquamarine;
+}
+
+.r2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+
+    height: 500px;
+    width: 350px;
+    border: 6px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    
+}
+
+.c1{
+    background-image: url(images/moon_birds_boats_61663_225x300.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c2{
+    background-image: url(images/1_dance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c3{
+    background-image: url(images/p4vr_4EJ_400x400.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c4{
+    background-image: url(images/img-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-c1{
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    height: 35%;
+    width: 100%;
+    justify-content: center; 
+    font-size: 20px;
+    text-shadow: 0 0 3px white;
+}
+
+.card-c2{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 20%;
+    align-items: center;
+    width: 100%;
+    text-shadow: 0 0 3px white;
+    justify-content: center; 
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+.card-c3{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center; 
+    align-items: end;
+}
+
+.card1-c3-box{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,108,255,1) 0%, rgba(0,177,252,1) 23%, rgba(0,203,251,1) 34%, rgba(0,235,249,1) 50%, rgba(228,228,228,1) 100%);
+    margin-bottom: 10px;
+    font-size: 60px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0 15px blue;
+}
+
+.card2-c3-box{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    color: white;
+    background: linear-gradient(0deg, rgba(255,136,0,1) 0%, rgba(237,176,107,1) 60%, rgba(255,255,255,1) 100%);
+    margin-bottom: 10px;
+    font-size: 60px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0 10px orange;
+}
+
+.card3-c3-box{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    color: white;
+    background: linear-gradient(0deg, rgba(209,113,252,1) 0%, rgba(0,22,255,1) 30%, rgba(0,18,255,1) 61%, rgba(255,202,252,1) 100%);
+    margin-bottom: 10px;
+    font-size: 60px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0 10px purple;
+}
+
+.card4-c3-box{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    color: white;
+    background: linear-gradient(0deg, rgba(0,84,4,1) 0%, rgba(1,161,6,1) 59%, rgba(250,250,250,1) 100%);
+    margin-bottom: 10px;
+    font-size: 60px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0 10px green;
+}

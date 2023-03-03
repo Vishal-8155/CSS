@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(273deg, rgba(3, 14, 51, 1) 0%, rgba(69, 96, 179, 1) 100%);
+}
+
+fieldset {
+    height: 420px;
+    width: 380px;
+    border-radius: 60px 10px;
+    background: linear-gradient(273deg, rgba(0, 0, 0, 1) 0%, rgba(35, 56, 117, 1) 100%);
+    border: 1px solid rgb(160, 229, 238);
+}
+
+legend {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+}
+
+.r1{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-login-div{
+    color: rgb(254, 194, 82);
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.r2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    height: 40px;
+    width: 310px;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 10px;
+    border-radius: 13px 3px;
+    font-size: 17px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+
+.r3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password{
+    height: 40px;
+    width: 310px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    padding-left: 10px; 
+    border-radius: 13px 3px;
+    font-size: 17px;
+    color: white;
+}
+
+.r4{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 42px;
+    width: 325px;
+    background: transparent;
+    color: rgb(208, 232, 239);
+    border: 2px solid rgb(160, 229, 238);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
