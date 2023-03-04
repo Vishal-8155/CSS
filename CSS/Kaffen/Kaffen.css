@@ -54,7 +54,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 740px 880px 200px 900px 250px;
+    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 740px 880px 200px 900px 230px;
     background-color: black;
 }
 
@@ -1114,8 +1114,45 @@ body {
 
     .r11{
         background-image: url(service3.jpeg);
+        background-color: rgba(0, 0, 0, 0.515);
+        background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
+        display: grid;
+        grid-template-columns: 1fr 1050px 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .r11c2{
+        display: grid;
+        grid-template-columns: 700px 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .r11c2c1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .r11c2c1r1{
+        display: grid;
+        color: #b99272;
+        align-items: end;
+        padding-bottom: 20px;
+    }
+
+    .r11c2c1r2{
+        color: white;
+        font-family: var(--oswald-regular);
+        font-size: 40px;
+    }
+
+    .r11c2c2{
+        display: flex;
+        justify-content: end;
+        align-items: center;
     }
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
