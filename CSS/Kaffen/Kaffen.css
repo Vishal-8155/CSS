@@ -54,7 +54,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 740px 880px 200px 850px;
+    grid-template-rows: 50px 100px 850px 1200px 1040px 900px 740px 880px 200px 900px 250px;
     background-color: black;
 }
 
@@ -1020,7 +1020,7 @@ body {
 .r10c2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 410px 1fr;
+    grid-template-rows: 250px 430px 1fr;
 }
 
 .r10c2r1 {
@@ -1046,20 +1046,78 @@ body {
     font-size: 40px;
 }
 
-.r10c2r2{
-    margin: auto;
-    display: flex;
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: 1fr; */
-    
-    /* grid-gap: 5px; */
+.r10c2r2 {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 366px) 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+
+.r10c2r2c{
+    overflow: hidden;
+}
+
+.r10c2r2c1{
+    position: relative;
+}
+
+.r10c2r2c2{
+    position: relative;
+}
+
+.r10c2r2c3{
+    position: relative;
+}
+
+.r10c2r2c-img {
+    width: 23rem;
+    height: 27rem;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 1s;
+    opacity: .7;
+}
+
+.r10c2r2c-img:hover{
+    scale: 1.1;
+}
+
+.r10c2r2c-div {
+    display: grid;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    justify-content: center;
+}
+
+.r10c2r2c-p {
+    color: white;
+    font-family: var(--oswald);
+    font-size: 23px;
+}
+
+.r10c2r2c span{
+    color: var(--fade-white);
+    line-height: 30px;
+}
+
+.r10c2r3{
+    display: grid;
+    justify-content: center;
+    padding-top: 60px;
 }
 
 
 
 
-
 /* ---------------------------------------------------------------------------------------------------------------- */
+
+    .r11{
+        background-image: url(service3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
 /* -----------------------------------------------------------------Media Query------------------------------------------------------------------- */
 /* --------------------https://www.youtube.com/watch?v=68O6eOGAGqA--------------------- */
