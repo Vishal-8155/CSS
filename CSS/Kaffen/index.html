@@ -20,6 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -31,6 +32,14 @@
   </head>
 
   <body>
+        
+    <div class="loader">
+      <div class="loading">
+        <img src="logo.png" height="45px" width="145px">
+                <div class="load"></div>
+      </div>
+    </div>
+
     <!-- ------------------------------------------------------------------------------------------------------------------->
     <div class="container">
       <!-- ------------------------------------------------------------------------------------------------------------------->
@@ -920,6 +929,14 @@
 
       <!-- ------------------------------------------------------------------------------------------------------------------->
     </div>
+
+    <script>
+      $(window).on('load',function(){
+       
+          $('.loader').delay(2000).fadeTo(1000,0)
+     
+      });
+    </script>
 
     <script>
       wow = new WOW({
